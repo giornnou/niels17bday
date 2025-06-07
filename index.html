@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selamat Ulang Tahun!</title>
+  <!-- Import font Poppins dari Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0a1a2f;
+      color: white;
+      font-family: 'Poppins', sans-serif; /* Ganti font di sini */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: white;
+      color: #0a1a2f;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #dfe9ff;
+    }
+
+    .message {
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>hi endru :33</h1>
+    <p>pencet pls, ak mau kasi sesuatu</p>
+    <button onclick="tampilkanUcapan()">Start</button>
+
+    <div class="message" id="ucapan">
+      <h2>haappy seventeenth b'day mek :P</h2>
+      <p>Today is your special day, el! Thank u for being such an important part in my life.</p>
+      <p>I just want u to know how grateful I am to have u by my side whether when I'm happy, sad, or when I'm going through difficult times like the past competitions ((sorry for being too clingy n sensitive then))</p>
+      <p>May this year brings u more happiness, strength, wealth, academic comeback, koleksi truk baru, and everything you've been hoping for !! @_@</p>
+      <p>remember that i always love u el :]]</p>
+    </div>
+  </div>
+
+  <script>
+    function tampilkanUcapan() {
+      document.getElementById("ucapan").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
